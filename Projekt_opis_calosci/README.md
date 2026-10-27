@@ -26,7 +26,7 @@ Przykładowe osie tematyczne (może wybrać jedną z nich, ale zapropnować wła
 - Python 3.10+; biblioteki: `pandas`, `scikit-learn`, `numpy`, `ydata-profiling`, `great-expectations`, `mlflow`, (dla obrazów: `torch` + `torchvision` lub `tensorflow`), (dla dużych: zależnie od wyboru, np. `dask`/`pyspark`/`datasets`)
 - **MLflow** do metryk/artefaktów
 - **Great Expectations** do Data Quality
-- Repozytorium **GitHub** — **jedno** na cały projekt; nazwa **musi zawierać numer indeksu** studenta lub numery studentów w zespole, np. `PUM_Projekt_s12345_s67890` (obowiązkowo w repo: `README`, `/dags`, `/include/config`, `/src`, `/notebooks`, `/reports`, `/mlruns` (lub zewn. tracking))
+- Repozytorium **GitHub** — **jedno** na cały projekt (praca **indywidualna**); nazwa **musi zawierać Twój numer indeksu**, np. `PUM_Projekt_s12345` (obowiązkowo w repo: `README`, `/dags`, `/include/config`, `/src`, `/notebooks`, `/reports`, `/mlruns` (lub zewn. tracking))
 - **Każdy etap zajęć** realizujesz na **dedykowanym branchu** (np. `zajecia-1` … `zajecia-4`)
 
 ### Zasady oddania (wszystkie etapy)
@@ -72,7 +72,7 @@ Przykładowa struktura:
 ### Zakres:
 
 - Wybór **wspólnej domeny** i **3 zbiorów** zgodnych z wymogami.
-- Konfiguracja **Airflow** + repo GitHub (nazwa z numerami indeksów) + branch `zajecia-1`.
+- Konfiguracja **Airflow** + repo GitHub (nazwa z numerem indeksu `s…`) + branch `zajecia-1`.
 - **DAG #1 (ingest_eda_prep)** per zbiór:
   1. **Ingest**: automatyczne pobranie danych (HTTP/Cloud/Local), walidacja schematu.
   2. **Data Quality**: **Great Expectations** – min. 5 asercji (np. brak duplikatów klucza, typy, zakresy, brak NA w target, procent braków < X%).

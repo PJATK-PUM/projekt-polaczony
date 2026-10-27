@@ -4,7 +4,7 @@
 
 ### Zakres:
 
-* Kontynuacja tego samego repo (nazwa z numerami indeksów); rozwiązanie na branchu **`zajecia-2`**.
+* Kontynuacja tego samego repo (nazwa z numerem indeksu `s…`); rozwiązanie na branchu **`zajecia-2`**.
 * **DAG #2 (automl)** zależny od artefaktów z DAG #1.
 * Dla **tabular**: baseline (Logistic/Linear), drzewne (RandomForest/XGBoost/LightGBM), prosty MLP.
 * Dla **obrazów**: transfer learning (np. ResNet/MobileNet/EfficientNet, 5–10 epok), zapis wag.

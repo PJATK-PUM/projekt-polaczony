@@ -4,7 +4,7 @@
 
 ### Reguła:
 
-* Rozwiązanie na branchu **`zajecia-3`** w tym samym repo (nazwa z numerami indeksów).
+* Rozwiązanie na branchu **`zajecia-3`** w tym samym repo (nazwa z numerem indeksu `s…`).
 * Automatyczne pobranie danych (HTTP/Cloud/Local), walidacja schematu.
 * Każdy zbiór dzielimy na **część A (50%)** i **część B (50%)** (z zachowaniem rozkładów/stratified).
 * Przygotowanie danych danych z części A,

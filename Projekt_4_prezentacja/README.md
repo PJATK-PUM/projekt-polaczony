@@ -19,7 +19,7 @@
 
 ### „Checkpoint” po zajęciach 4:
 
-* Rozwiązanie na branchu **`zajecia-4`** w tym samym repo (nazwa z numerami indeksów).
+* Rozwiązanie na branchu **`zajecia-4`** w tym samym repo (nazwa z numerem indeksu `s…`).
 * Raport w `/reports` i w README (link).
 * Prezentacja przećwiczona (timer), fokus na **wnioski i decyzje**.
 
@@ -36,7 +36,7 @@
 
 * **Konfiguracja-first:** wszystko sterowane plikami `*.yaml` (źródła, metryki, progi, hyperparam search space).
 * **Eksperymenty:** każdy model musi mieć **co najmniej 2 warianty** hiperparametrów, uzasadnionych w raporcie.
-* **Skalowanie:** w „dużych danych” zespół **musi** pokazać albo batching/partycjonowanie, albo wybór narzędzia (Dask/PySpark) z krótkim uzasadnieniem.
+* **Skalowanie:** w „dużych danych” student **musi** pokazać albo batching/partycjonowanie, albo wybór narzędzia (Dask/PySpark) z krótkim uzasadnieniem.
 * **Repro:** `make up && make flow` uruchamia cały pipeline (Makefile).
 * **Czystość repo:** PR-y, code review, `pre-commit` (flake8/black/isort).
 
@@ -110,7 +110,7 @@ def two_stage_training(XA, yA, XB, yB):
 * **Z3:** branch `zajecia-3` + działający DAG #3 + porównania bazowy vs dokształcony + `retraining_findings.md` + link w Teams
 * **Z4:** branch `zajecia-4` + raport końcowy + 4-min prezentacja (twardy limit) + link w Teams
 
-Repo: nazwa z numerami indeksów. Poprawka = nowy link. Commity po terminie = oszustwo.
+Repo: nazwa z numerem indeksu (`s…`). Poprawka = nowy link. Commity po terminie = oszustwo.
 
 ---
 

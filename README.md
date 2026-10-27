@@ -9,7 +9,7 @@ Połączone treści z repozytoriów:
 
 ### Zasady oddania (obowiązują wszystkie etapy)
 
-1. **Nazwa repo** musi zawierać numer indeksu studenta lub numery studentów w zespole, np. `PUM_Projekt_s12345_s67890`.
+1. **Nazwa repo** musi zawierać numer indeksu studenta (praca **indywidualna**), np. `PUM_Projekt_s12345`.
 2. **Każdy etap / zadanie** ma **dedykowany branch** (np. `zajecia-1`, `zajecia-2`, `zajecia-3`, `zajecia-4`).
 3. Oddanie do oceny: **link do brancha** z rozwiązaniem, przesłany przez **Teams jako link** (nie plik tekstowy z adresem).
 4. **Każda poprawka** wymaga przesłania **nowego linka**.

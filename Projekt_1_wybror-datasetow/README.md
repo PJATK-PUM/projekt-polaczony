@@ -5,7 +5,7 @@
 ### Zakres:
 
 * Wybór **wspólnej domeny** i **3 zbiorów** zgodnych z wymogami.
-* Konfiguracja **Airflow** + repo GitHub — nazwa repo **musi zawierać numer indeksu** (lub numery studentów), np. `PUM_Projekt_s12345_s67890`.
+* Konfiguracja **Airflow** + repo GitHub — praca **indywidualna**; nazwa repo **musi zawierać Twój numer indeksu**, np. `PUM_Projekt_s12345`.
 * Rozwiązanie tego etapu na **dedykowanym branchu** `zajecia-1`.
 * **DAG #1 (ingest_eda_prep)** per zbiór:
 
