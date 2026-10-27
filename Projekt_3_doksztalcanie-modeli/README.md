@@ -4,6 +4,7 @@
 
 ### Reguła:
 
+* Rozwiązanie na branchu **`zajecia-3`** w tym samym repo (nazwa z numerami indeksów).
 * Automatyczne pobranie danych (HTTP/Cloud/Local), walidacja schematu.
 * Każdy zbiór dzielimy na **część A (50%)** i **część B (50%)** (z zachowaniem rozkładów/stratified).
 * Przygotowanie danych danych z części A,
@@ -40,3 +41,10 @@ retrain_stage2()
 
 * Działający **DAG #3** i artefakty ewaluacyjne w MLflow.
 * W repo: `retraining_findings.md` z wnioskami.
+
+### Oddanie
+
+1. `push` brancha `zajecia-3`.
+2. Przez **Teams** wyślij **link do brancha** — **jako link**, nie plik tekstowy.
+3. Każda **poprawka** = **nowy link**.
+4. **Commity po ostatecznym terminie** = **oszustwo**.

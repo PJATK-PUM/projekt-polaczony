@@ -4,6 +4,7 @@
 
 ### Zakres:
 
+* Kontynuacja tego samego repo (nazwa z numerami indeksów); rozwiązanie na branchu **`zajecia-2`**.
 * **DAG #2 (automl)** zależny od artefaktów z DAG #1.
 * Dla **tabular**: baseline (Logistic/Linear), drzewne (RandomForest/XGBoost/LightGBM), prosty MLP.
 * Dla **obrazów**: transfer learning (np. ResNet/MobileNet/EfficientNet, 5–10 epok), zapis wag.
@@ -35,3 +36,10 @@ automl_train()
 * Uruchomiony **DAG #2** na 3 zbiorach.
 * W MLflow: listy eksperymentów, metryki, artefakty.
 * W repo: `models_results.md` z tabelą TOP-3 per zbiór (autogenerowane).
+
+### Oddanie
+
+1. `push` brancha `zajecia-2`.
+2. Przez **Teams** wyślij **link do brancha** — **jako link**, nie plik tekstowy.
+3. Każda **poprawka** = **nowy link**.
+4. **Commity po ostatecznym terminie** = **oszustwo**.

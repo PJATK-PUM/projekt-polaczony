@@ -19,8 +19,16 @@
 
 ### „Checkpoint” po zajęciach 4:
 
+* Rozwiązanie na branchu **`zajecia-4`** w tym samym repo (nazwa z numerami indeksów).
 * Raport w `/reports` i w README (link).
 * Prezentacja przećwiczona (timer), fokus na **wnioski i decyzje**.
+
+### Oddanie
+
+1. `push` brancha `zajecia-4`.
+2. Przez **Teams** wyślij **link do brancha** — **jako link**, nie plik tekstowy.
+3. Każda **poprawka** = **nowy link**.
+4. **Commity po ostatecznym terminie** = **oszustwo**.
 
 ---
 
@@ -97,10 +105,12 @@ def two_stage_training(XA, yA, XB, yB):
 
 ## ✅ Co dostarczają studenci po każdym etapie
 
-* **Z1:** działający DAG #1 + raporty EDA + GE validation + opis domeny
-* **Z2:** działający DAG #2 + MLflow (TOP-3 per zbiór) + `models_results.md`
-* **Z3:** działający DAG #3 + porównania bazowy vs dokształcony + `retraining_findings.md`
-* **Z4:** raport końcowy + 4-min prezentacja (twardy limit)
+* **Z1:** branch `zajecia-1` + działający DAG #1 + raporty EDA + GE validation + opis domeny + link w Teams
+* **Z2:** branch `zajecia-2` + działający DAG #2 + MLflow (TOP-3 per zbiór) + `models_results.md` + link w Teams
+* **Z3:** branch `zajecia-3` + działający DAG #3 + porównania bazowy vs dokształcony + `retraining_findings.md` + link w Teams
+* **Z4:** branch `zajecia-4` + raport końcowy + 4-min prezentacja (twardy limit) + link w Teams
+
+Repo: nazwa z numerami indeksów. Poprawka = nowy link. Commity po terminie = oszustwo.
 
 ---
 

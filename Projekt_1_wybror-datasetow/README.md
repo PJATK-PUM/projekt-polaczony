@@ -5,7 +5,8 @@
 ### Zakres:
 
 * Wybór **wspólnej domeny** i **3 zbiorów** zgodnych z wymogami.
-* Konfiguracja **Airflow** + repo GitHub.
+* Konfiguracja **Airflow** + repo GitHub — nazwa repo **musi zawierać numer indeksu** (lub numery studentów), np. `PUM_Projekt_s12345_s67890`.
+* Rozwiązanie tego etapu na **dedykowanym branchu** `zajecia-1`.
 * **DAG #1 (ingest_eda_prep)** per zbiór:
 
   1. **Ingest**: automatyczne pobranie danych (HTTP/Cloud/Local), walidacja schematu.
@@ -46,3 +47,10 @@ ingest_eda_prep()
 * Działający **DAG #1** dla 3 zbiorów (ręczne uruchomienie OK).
 * Raporty EDA i logi Quality w repo.
 * Krótka sekcja w README: opis domeny i źródeł.
+
+### Oddanie
+
+1. `push` brancha `zajecia-1`.
+2. Przez **Teams** wyślij **link do brancha** (np. `…/tree/zajecia-1`) — **jako link**, nie plik tekstowy.
+3. Każda **poprawka** = **nowy link**.
+4. **Commity po ostatecznym terminie** = **oszustwo**.

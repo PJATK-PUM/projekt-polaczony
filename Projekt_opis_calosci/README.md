@@ -26,7 +26,14 @@ Przykładowe osie tematyczne (może wybrać jedną z nich, ale zapropnować wła
 - Python 3.10+; biblioteki: `pandas`, `scikit-learn`, `numpy`, `ydata-profiling`, `great-expectations`, `mlflow`, (dla obrazów: `torch` + `torchvision` lub `tensorflow`), (dla dużych: zależnie od wyboru, np. `dask`/`pyspark`/`datasets`)
 - **MLflow** do metryk/artefaktów
 - **Great Expectations** do Data Quality
-- Repozytorium **GitHub** (obowiązkowo: `README`, `/dags`, `/include/config`, `/src`, `/notebooks`, `/reports`, `/mlruns` (lub zewn. tracking))
+- Repozytorium **GitHub** — **jedno** na cały projekt; nazwa **musi zawierać numer indeksu** studenta lub numery studentów w zespole, np. `PUM_Projekt_s12345_s67890` (obowiązkowo w repo: `README`, `/dags`, `/include/config`, `/src`, `/notebooks`, `/reports`, `/mlruns` (lub zewn. tracking))
+- **Każdy etap zajęć** realizujesz na **dedykowanym branchu** (np. `zajecia-1` … `zajecia-4`)
+
+### Zasady oddania (wszystkie etapy)
+
+1. Oddanie do oceny: **link do brancha** z rozwiązaniem danego etapu, przesłany przez **Teams jako link** (nie plik tekstowy).
+2. **Każda poprawka** wymaga przesłania **nowego linka**.
+3. **Commity przesłane po ostatecznym terminie** będą traktowane jako **oszustwo**.
 
 Przykładowa struktura:
 
@@ -65,7 +72,7 @@ Przykładowa struktura:
 ### Zakres:
 
 - Wybór **wspólnej domeny** i **3 zbiorów** zgodnych z wymogami.
-- Konfiguracja **Airflow** + repo GitHub.
+- Konfiguracja **Airflow** + repo GitHub (nazwa z numerami indeksów) + branch `zajecia-1`.
 - **DAG #1 (ingest_eda_prep)** per zbiór:
   1. **Ingest**: automatyczne pobranie danych (HTTP/Cloud/Local), walidacja schematu.
   2. **Data Quality**: **Great Expectations** – min. 5 asercji (np. brak duplikatów klucza, typy, zakresy, brak NA w target, procent braków < X%).
@@ -74,6 +81,7 @@ Przykładowa struktura:
     - tabular: imputacja, encode, scale; zapis „clean.parquet”
     - obrazy: weryfikacja metadanych, konsolidacja manifestu, podział train/val, proste augmentacje
     - duże: streaming/partycjonowanie, filtracja outliers, zapis do formatu kolumnowego (Parquet) lub shardów
+- Oddanie: link do brancha `zajecia-1` przez Teams (jako link); poprawki = nowy link; commits po terminie = oszustwo.
 
 ---
 
@@ -91,6 +99,7 @@ Przykładowa struktura:
   - jeśli LLM → klasyfikacja/fine-tuning adapterów (LoRA) na małym modelu,
   - jeśli audio/wideo → ekstrakcja cech (MFCC/CLIP embeddings) + klasyfikator.
 - **MLflow**: rejestr metryk i artefaktów; selekcja **TOP-3** po zadanej metryce (np. F1/ROC-AUC/MAP).
+- Oddanie: branch `zajecia-2`, link do brancha przez Teams (jako link); poprawki = nowy link; commits po terminie = oszustwo.
 
 ---
 
@@ -113,6 +122,7 @@ Przykładowa struktura:
   - tabular → mini-batch (Dask),
   - LLM → adapter (LoRA) najpierw na A, potem krótkie dociągnięcie na B,
   - audio/wideo → najpierw embedding model + liniowy klasyfikator, potem doczytanie embeddingów z B i dalsze uczenie.
+- Oddanie: branch `zajecia-3`, link do brancha przez Teams (jako link); poprawki = nowy link; commits po terminie = oszustwo.
 
 ---
 
@@ -132,4 +142,5 @@ Przykładowa struktura:
 - **Prezentacja 4 min (twarde ograniczenie)** – po 5:00 **niezaliczona**.
   - Zalecany format: 2 slajdy + live pokaz grafów MLflow lub widoku Airflow.
   - Mówimy o **wnioskach**, nie o slajdach.
+- Oddanie: link do brancha `zajecia-4` przez Teams (jako link); poprawki = nowy link; commits po terminie = oszustwo.
 
